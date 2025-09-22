@@ -1,159 +1,101 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dora Leonny Giselle - CV</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         header {
             text-align: center;
             border-bottom: 2px solid #007bff;
             padding-bottom: 20px;
             margin-bottom: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
-        .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 15px;
-            border: 3px solid #007bff;
-        }
-            font-weight: 700;
-        }
-        .contact-info {
-            font-size: 1.1em;
-            margin: 10px 0;
-        }
-        .contact-info a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-        section {
-            margin-bottom: 30px;
-        }
+                }
         h2 {
             color: #007bff;
             border-bottom: 1px solid #ddd;
             padding-bottom: 5px;
-            font-size: 1.5em;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .experience-item, .education-item, .org-item {
+            margin-bottom: 15px;
         }
         .job-title {
             font-weight: bold;
             color: #007bff;
         }
-        .location {
+        .date-location {
             font-style: italic;
             color: #666;
         }
-        .date {
-            float: right;
-            color: #666;
-        }
         .skills-list {
-            list-style-type: none;
-            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
         }
-        .skills-list li {
-            background-color: #e9ecef;
-            margin: 5px 0;
-            padding: 8px;
-            border-radius: 4px;
-        }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
- @media (max-width: 600px) {
-            .container {
-                padding: 10px;
-            }
-            h1 {
-                font-size: 2em;
-            }
-            .profile-image {
-                width: 120px;
-                height: 120px;
-            }
-        }
-    </style>
+            </style>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>DORA LEONNY GISELLE</h1>
+            <div class="contact">
+                08989861351 | 
                 <a href="mailto:gisedoraleonny@gmail.com">gisedoraleonny@gmail.com</a> | 
                 <a href="https://www.linkedin.com/in/dora-leonny-gise-932584275/" target="_blank">LinkedIn</a> | 
                 <a href="https://app.smojo.org/chatbothealth/Hedu-GPT-CS5.0" target="_blank">Smojo Profile</a>
             </div>
         </header>
-        <section id="summary">
-            <h2>Professional Summary</h2>
-            <div class="summary">
-                Active 6th semester undergraduate student at Telkom University, Jakarta, with special interests in network systems, machine learning, and databases. Has professional experience through the Bangkit Independent Study program with a focus on data analysis and the application of machine learning models, as well as competence in the use of TensorFlow. Proven ability to work collaboratively in multidisciplinary teams and develop innovative solutions, such as the FontFound project. Actively involved in various organizational activities and academic competitions, including ONMIPA Regional in Chemistry, GEMASTIK 2024, APBN Debate Competition, and Innovillage 2023, with achievements as one of the top 160 best social projects nationally. Has good data analysis, research, and communication skills, and is committed to making a real contribution to the development of data-based technologies and solutions.
-            </div>
-        </section>
-        <section id="work-experience">
-            <h2>Work Experiences</h2>
-            <div class="experience-item">
-                <div class="job-title">Deall Job - Jakarta, Indonesia</div>
-                <div class="location">Nasional Ambassador Job Expo</div>
-                <p>Create attractive campaigns related to job expo events and promote job expo activities on social media.</p>
-            </div>
-        </section>
-<section id="education">
-            <h2>Pendidikan (Education)</h2>
-            <div class="education-item">
-                <div class="job-title">Universitas Telkom - Jakarta, Indonesia</div>
-                <div class="date">Oct 2022 - Aug 2026 (Expected)</div>
-                <p>Bachelor of Information System, 3.26/4.00</p>
-                <ul>
-                    <li>Received funding support for a social innovation project in Innovillage 2023</li>
-                    <li>Internally selected for GEMASTIK 2024 – National Student Competition in Information and Communication Technology</li>
-                    <li>Finalist in the APBN Debate Competition – Focused on national budgeting and policy issues</li>
-                    <li>Participated in ONMIPA Regional 2023 (Chemistry field) – National-level science competition</li>
-                </ul>
-            </div>
-        </section>
-                     <div class="job-title">Innovillage - Jakarta</div>
-                <div class="date">Sep 2023 - Feb 2024</div>
-                <p>Team Leader + Hacker</p>
-                <p>A funding program organized by PT Telkom Indonesia with the goal of developing digital villages.</p>
+        <section id="organizations">
+            <h2>Organizational Experiences</h2>
+            <div class="org-item">
+                <div class="job-title">Innovillage - Jakarta</div>
+                <div class="date-location">Sep 2023 - Feb 2024</div>
+                <p>Team Leader + Hacker. A funding program organized by PT Telkom Indonesia with the goal of developing digital villages.</p>
             </div>
             <div class="org-item">
                 <div class="job-title">Final Project - Jakarta</div>
-                <div class="date">Jan 2021 - Present</div>
-                <p>Team Leader database system Padang restaurant</p>
-                <p>Assisted in creating a project timeline for database development in the final project for the Database course.</p>
+                <div class="date-location">Jan 2021 - Present</div>
+                <p>Team Leader database system Padang restaurant. Assisted in creating a project timeline for database development in the final project for the Database course.</p>
             </div>
             <div class="org-item">
                 <div class="job-title">Bangkit Academy</div>
-                <div class="date">Sep 2024 - Jan 2025</div>
-                <p>Student</p>
-                <p>Bangkit Program is an independent study program organized by PT Dicoding Indonesia in collaboration with Google, Gojek, and Traveloka, aimed at developing digital talent among university students.</p>
-                <p>Completed 20 credits in ML topics including Deep Learning and NLP. Built FontFound, a real-time font detection app, and handled end-to-end project deployment with a collaborative team.</p>
+                <div class="date-location">Sep 2024 - Jan 2025</div>
+                <p>Student. Bangkit Program is an independent study program organized by PT Dicoding Indonesia in collaboration with Google, Gojek, and Traveloka, aimed at developing digital talent among university students. Completed 20 credits in ML topics including Deep Learning and NLP. Built FontFound, a real-time font detection app, and handled end-to-end project deployment with a collaborative team.</p>
             </div>
         </section>
-             <section id="skills-awards">
-            <h2>Kemampuan, Penghargaan, dan Kompetisi (Skills, Awards, and Competitions)</h2>
+         <section id="skills">
+            <h2>Skills, Awards, and Competitions</h2>
             <p><strong>Projects (2023):</strong></p>
-            <ul class="skills-list">
-                <li>Negotiating</li>
-                <li>Public Speaking</li>
-                <li>Pitching</li>
-                <li>Time, Task & Project Management</li>
-            </ul>
-            <!-- Add more skills if available, e.g., TensorFlow, Machine Learning, etc., based on summary -->
-            <p><strong>Key Skills:</strong> Data Analysis, Machine Learning (TensorFlow, Deep Learning, NLP), Databases, Network Systems, Research, Communication.</p>
+            <div class="skills-list">
+                <span class="skill-tag">Negotiating</span>
+                <span class="skill-tag">Public Speaking</span>
+                <span class="skill-tag">Pitching</span>
+                <span class="skill-tag">Time Management</span>
+                <span class="skill-tag">Task Management</span>
+                <span class="skill-tag">Project Management</span>
+            </div>
+            <p>Additional skills include data analysis, machine learning (TensorFlow, Deep Learning, NLP), databases, and collaborative teamwork.</p>
         </section>
     </div>
 </body>
 </html>
-

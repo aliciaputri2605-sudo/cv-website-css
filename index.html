@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dora Leonny Giselle - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
             border-bottom: 2px solid #007bff;
             padding-bottom: 20px;
             margin-bottom: 20px;
@@ -13,10 +26,6 @@
             margin-bottom: 15px;
             border: 3px solid #007bff;
         }
-        h1 {
-            color: #007bff;
-            margin: 0 0 10px 0;
-            font-size: 2.5em;
             font-weight: 700;
         }
         .contact-info {
@@ -27,7 +36,31 @@
             color: #007bff;
             text-decoration: none;
         }
-                .skills-list {
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            font-size: 1.5em;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .location {
+            font-style: italic;
+            color: #666;
+        }
+        .date {
+            float: right;
+            color: #666;
+        }
+        .skills-list {
             list-style-type: none;
             padding: 0;
         }
@@ -41,7 +74,7 @@
             margin: 10px 0;
             padding-left: 20px;
         }
-        @media (max-width: 600px) {
+ @media (max-width: 600px) {
             .container {
                 padding: 10px;
             }
@@ -53,7 +86,21 @@
                 height: 120px;
             }
         }
-                <section id="work-experience">
+    </style>
+</head>
+<body>
+                <a href="mailto:gisedoraleonny@gmail.com">gisedoraleonny@gmail.com</a> | 
+                <a href="https://www.linkedin.com/in/dora-leonny-gise-932584275/" target="_blank">LinkedIn</a> | 
+                <a href="https://app.smojo.org/chatbothealth/Hedu-GPT-CS5.0" target="_blank">Smojo Profile</a>
+            </div>
+        </header>
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <div class="summary">
+                Active 6th semester undergraduate student at Telkom University, Jakarta, with special interests in network systems, machine learning, and databases. Has professional experience through the Bangkit Independent Study program with a focus on data analysis and the application of machine learning models, as well as competence in the use of TensorFlow. Proven ability to work collaboratively in multidisciplinary teams and develop innovative solutions, such as the FontFound project. Actively involved in various organizational activities and academic competitions, including ONMIPA Regional in Chemistry, GEMASTIK 2024, APBN Debate Competition, and Innovillage 2023, with achievements as one of the top 160 best social projects nationally. Has good data analysis, research, and communication skills, and is committed to making a real contribution to the development of data-based technologies and solutions.
+            </div>
+        </section>
+        <section id="work-experience">
             <h2>Work Experiences</h2>
             <div class="experience-item">
                 <div class="job-title">Deall Job - Jakarta, Indonesia</div>
@@ -61,7 +108,7 @@
                 <p>Create attractive campaigns related to job expo events and promote job expo activities on social media.</p>
             </div>
         </section>
-        <section id="education">
+<section id="education">
             <h2>Pendidikan (Education)</h2>
             <div class="education-item">
                 <div class="job-title">Universitas Telkom - Jakarta, Indonesia</div>
@@ -75,7 +122,10 @@
                 </ul>
             </div>
         </section>
-                        <p>A funding program organized by PT Telkom Indonesia with the goal of developing digital villages.</p>
+                     <div class="job-title">Innovillage - Jakarta</div>
+                <div class="date">Sep 2023 - Feb 2024</div>
+                <p>Team Leader + Hacker</p>
+                <p>A funding program organized by PT Telkom Indonesia with the goal of developing digital villages.</p>
             </div>
             <div class="org-item">
                 <div class="job-title">Final Project - Jakarta</div>
@@ -91,7 +141,7 @@
                 <p>Completed 20 credits in ML topics including Deep Learning and NLP. Built FontFound, a real-time font detection app, and handled end-to-end project deployment with a collaborative team.</p>
             </div>
         </section>
-        <section id="skills-awards">
+             <section id="skills-awards">
             <h2>Kemampuan, Penghargaan, dan Kompetisi (Skills, Awards, and Competitions)</h2>
             <p><strong>Projects (2023):</strong></p>
             <ul class="skills-list">
@@ -106,3 +156,4 @@
     </div>
 </body>
 </html>
+
